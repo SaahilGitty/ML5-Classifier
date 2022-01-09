@@ -1,0 +1,56 @@
+body {
+    background-image: url("bg.jpg");
+}
+
+#splash {
+    padding: 16px;
+    color: black;
+    background-color: rgba(255, 0, 85, 0.8);
+}
+
+#about {
+    border-radius: 25px;
+
+    animation-name: rainbowText;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+@keyframes rainbowText {
+    0% {
+        color: red;
+    }
+    14.285714285% {
+        color: orange;
+    }
+    28.571428571% {
+        color: yellow;
+    }
+    42.857142857% {
+        color: green;
+    }
+    57.142857142% {
+        color: blue;
+    }
+    71.428571428% {
+        color: indigo;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+canvas {
+    height: 750px;
+    width: 750px;
+    border: 4px dotted blue;
+}
+
+.w3-container > .w3-panel > .w3-hover-pink {
+    text-align: left;
+    font-size: large;
+    margin:0px;
+    padding: 10px;
+}
